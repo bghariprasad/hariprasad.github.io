@@ -1,0 +1,18 @@
+.resume-btn {
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0px;
+  margin-top: 2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+  transition: all 0.2s ease-in-out 0s !important;
+}
+
+.resume-btn:hover {
+  transform: scale(1.05);
+}
