@@ -2,7 +2,7 @@ import './styles.css';
 
 function ExperienceCard({image, designation, companyName, duration, location, skills}) {
   return (
-    <main className='chip-shadow border-primary-1 drop-shadow-md w-[35rem] rounded-lg p-5 pb-5'>
+    <main className='chip-shadow border-primary-1 drop-shadow-md md:w-[35rem] w-[25rem] rounded-lg p-5 pb-5'>
       <section className=" flex flex-row gap-5">
         <div className='h-14 w-14 mt-2'>
           <img className="rounded-lg" src={image} title={companyName} />

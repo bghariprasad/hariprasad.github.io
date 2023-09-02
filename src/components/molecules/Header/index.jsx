@@ -7,11 +7,11 @@ function Header() {
   };
 
   return (
-    <header className="px-20 flex justify-between items-center bg-bgDark h-20 z-10 fixed left-0 right-0">
+    <header className="sm:px-20 px-5 flex justify-between items-center bg-bgDark h-20 z-10 fixed left-0 right-0">
       <div className="w-2/12">
         <img alt="logo" src={portfolio} className='w-14 h-14' ></img>
       </div>
-      <ul className="w-4/12 justify-between flex text-text_primary cursor-pointer font-medium">
+      <ul className="w-4/12 justify-between md:flex text-text_primary cursor-pointer font-medium hidden">
         <a href="#about">About</a>
         <a href="#skills">Skill</a>
         <a href="#experience">Experience</a>
